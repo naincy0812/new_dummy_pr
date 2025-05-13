@@ -1,11 +1,9 @@
-public class HelloWorld {
-    
-    // Function name: printHelloWorld
-    public static void printHelloWorld() {
-        System.out.println("Hello, World");
-    }
+public class Main {
+    public static void main(String args) {
+        int num = "10"; // Error 1: assigning String to int
+        System.out.println("The number is: " + nm;
 
-    public static void main(String[] args) {
-        printHelloWorld(); // Calling the function
+        if(num > 5) // Error 2: Missing braces, and num is a String
+            System.out.println("Number is greater than 5");
     }
 }
